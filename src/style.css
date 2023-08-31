@@ -1,0 +1,64 @@
+body {
+	background: #ecedf0 url('https://dingyue.ws.126.net/2022/1011/d0210322j00rjkqdv03phd002yo01o0p.jpg') fixed;
+	/* background: #fff; */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+
+a:hover {
+	color: palevioletred;
+}
+
+.title {
+	font-size: 1.2rem;
+}
+
+.orange {
+	color: orange;
+}
+
+.text-center {
+	margin: auto;
+	text-align: center;
+}
+
+.center {
+	display: flex;
+	align-items: center !important;
+}
+
+.footer {
+	margin-bottom: 1rem;
+}
+
+.min-height {
+	min-height: 100px;
+}
+
+.card-list {
+	padding-top: 25px 303px;
+	margin: 5px;
+}
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	border: 40px black;
+	background-color: rgb(255, 255, 255, 0.6);
+	padding-left: 2px;
+}
+
+.card-header {
+	flex: 4;
+	max-width: 540px;
+	margin: auto 3px;
+}
+
+.card-body {
+	flex: 8;
+}
