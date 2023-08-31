@@ -20,8 +20,21 @@ const drawerState = ref(false);
 			</div>
 		</div>
 	</div>
-	<n-drawer v-model:show="drawerState" placement="top" :trap-focus="false" :block-scroll="false">
-		<n-drawer-content title="关于"> xxx </n-drawer-content>
+	<n-drawer v-model:show="drawerState" placement="top" :trap-focus="false" :block-scroll="false" height="180">
+		<n-drawer-content title="关于">
+			<div align="center">
+				<img src="https://img.shields.io/github/license/biyuehu/animewall" />
+				<img src="https://img.shields.io/github/last-commit/biyuehu/animewall" />
+				<img src="https://img.shields.io/github/commit-activity/t/biyuehu/animewall" />
+				<img src="https://img.shields.io/github/commit-activity/t/biyuehu/animewall" />
+				<br />
+				⚡番组计划收藏动画&Galgame展示网页，基于<mark>Vue</mark>+<mark>TypeScript</mark>+<mark>Vite</mark>开发⚡
+				<br />
+				<a href="https://github.com/BIYUEHU/animewall" target="_blank"
+					><n-button strong secondary type="info">Github🔗</n-button></a
+				>
+			</div>
+		</n-drawer-content>
 	</n-drawer>
 </template>
 
