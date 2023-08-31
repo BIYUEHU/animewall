@@ -19,3 +19,9 @@ export default {
 将`userName`更改为你的番组计划用户名或用户ID
 
 > [Bangumi](https://bgm.tv/)
+
+编译
+
+```bash
+npm run build
+```
