@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/github/commit-activity/t/biyuehu/animewall">
     <img src="https://img.shields.io/github/commit-activity/t/biyuehu/animewall">
     <br>
-    ⚡番组计划收藏动画&Galgame展示网页，基于`Vue`+`TypeScript`+`Vite`开发⚡
+    ⚡番组计划收藏动画&Galgame展示网页，基于<mark>Vue</mark>+<mark>TypeScript</mark>+<mark>Vite</mark>开发⚡
 </div>
 
 ## Install
