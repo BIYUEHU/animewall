@@ -9,6 +9,8 @@
         "lint": "eslint \"src/**/*.{js,vue,ts}\" --fix",
         "prettier": "prettier --config .prettierrc \"src/**/*.{vue,js,ts}\" --write"
     },
+    "license": "MIT",
+    "author": "hotaru",
     "dependencies": {
         "naive-ui": "^2.34.4",
         "axios": "^1.5.0",
