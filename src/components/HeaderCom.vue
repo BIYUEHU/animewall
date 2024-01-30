@@ -8,7 +8,7 @@ const drawerState = ref(false);
 	<div class="container">
 		<div class="content">
 			<div>
-				<img class="text-center" src="https://imlolicon.tk/favicon.ico" width="40" height="40" />
+				<img class="text-center" src="https://hotaru.icu/favicon.ico" width="40" height="40" />
 				<span>
 					<strong>蛍的收藏列表</strong>
 				</span>
