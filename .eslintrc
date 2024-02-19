@@ -3,13 +3,20 @@
 		"browser": true,
 		"es2021": true
 	},
-	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "airbnb-base", "prettier"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"airbnb-base",
+		"prettier"
+	],
 	"overrides": [
 		{
 			"env": {
 				"node": true
 			},
-			"files": [".eslintrc.{js,cjs}"],
+			"files": [
+				".eslintrc.{js,cjs}"
+			],
 			"parserOptions": {
 				"sourceType": "script"
 			}
@@ -20,7 +27,9 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
-	"plugins": ["@typescript-eslint"],
+	"plugins": [
+		"@typescript-eslint"
+	],
 	"rules": {
 		"import/no-unresolved": 0,
 		"import/extensions": 0,
@@ -38,14 +47,24 @@
 		"prefer-destructuring": 0,
 		"default-case": 0,
 		"no-console": 0,
-		"indent": [0, "spaces", 4],
 		"space-before-function-paren": 0
 	},
 	"settings": {
 		"import/resolver": {
 			"alias": {
-				"map": [["@", "./src"]],
-				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
+				"map": [
+					[
+						"@",
+						"./src"
+					]
+				],
+				"extensions": [
+					".ts",
+					".tsx",
+					".js",
+					".jsx",
+					".json"
+				]
 			}
 		}
 	}

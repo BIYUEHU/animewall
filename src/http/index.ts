@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { subjectType as subjectTypes } from '../func/types';
+import config from '../config';
 
 const http = (offset: number = 0, subjectType: subjectTypes = subjectTypes.anime) => {
-	const result = axios.get('https://api.bgm.tv/v0/users/himeno/collections', {
+	const result = axios.get(`https://api.bgm.tv/v0/users/${config.userName}/collections`, {
 		params: {
 			limit: 50,
 			offset,
